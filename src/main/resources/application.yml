@@ -8,10 +8,17 @@ spring:
     #    password: root
     #    driver-class-name: com.mysql.cj.jdbc.Driver
 
-    url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12808292?useSSL=false&serverTimezone=UTC
-    username: sql12808292
-    password: mGTJ7dzsij
+#    url: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12808292?useSSL=false&serverTimezone=UTC
+#    username: sql12808292
+#    password: mGTJ7dzsij
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    url: jdbc:mysql://7vanju.h.filess.io:61031/dryfruits_additional
+    username: dryfruits_additional
+    password: 2ea2a2f2019211a12c813f6401838ed686c3f2d0
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+
   #    hikari:
   #      maximum-pool-size: 4
   #      minimum-idle: 1

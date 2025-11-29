@@ -37,6 +37,8 @@ public class User {
     @Embedded
     private Address address;
 
+    private String password;
+
     private String token;
 
     @Temporal(TemporalType.TIMESTAMP)
